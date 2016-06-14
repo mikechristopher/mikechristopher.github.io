@@ -7,13 +7,51 @@
   background-color: #000;
 }
 
+.navbar .nav,
+.navbar .nav > li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  /* ie7 fix */
+  *zoom: 1;
+  /* hasLayout ie7 trigger */
+  vertical-align: center;
+}
+
+.navbar-inner {
+  text-align: center;
+}
+
 .container {
   background-color: #181818;
   color: #fff;
+  padding: 0px;
 }
 
 .title {
-  padding: 20px;
+  padding: 0px;
+  vertical-align: center;
+}
+
+.anchor a {
+  color: #fff;
+}
+
+.anchor a:link {
+  color: #fff;
+}
+
+.anchor a:active {
+  color: #fff;
+}
+
+.anchor a:visited {
+  color: #fff;
+}
+
+.anchor a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .social {
@@ -27,8 +65,8 @@
 
 .list-inline li {
   display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
   margin-bottom: 10px;
 }
 
@@ -39,7 +77,7 @@
 /*Change icons size here*/
 
 .social-icons .fa {
-  font-size: 36px;
+  font-size: 35px;
 }
 
 
@@ -89,9 +127,8 @@ social-icons .fa:hover,
   transform: scale(1.1) rotate(360deg);
 }
 
-.social-icons .fa-facebook,
-.social-icons .fa-facebook-square {
-  background-color: #3C599F;
+.social-icons .fa-envelope-o {
+  background-color: #cc0000;
 }
 
 .social-icons .fa-github,
@@ -103,10 +140,6 @@ social-icons .fa:hover,
 .social-icons .fa-linkedin,
 .social-icons .fa-linkedin-square {
   background-color: #0085AE;
-}
-
-.social-icons .fa-instagram {
-  background-color: #A1755C;
 }
 
 .social-icons .fa-twitter,
@@ -121,11 +154,10 @@ img {
   /* ie8 */
 }
 
-.showcase {
-  padding: 30px 0px;
+.showcase img {
+  padding: 10px 0px;
 }
 
-.footer a {
-  color: #fff;
-  font-size: 12px;
+.about-text {
+  padding: 0 50px;
 }

@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <title>Mike Nolan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.css">
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
-  
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -51,32 +49,56 @@
           <h1 class="text-center anchor"><a name="portfolio">Portfolio</a></h1>
           <!--<div class="col-md-4"><img src="https://raw.githubusercontent.com/mikechristopher/mikechristopher.github.io/master/images/portfolio.JPG" height="200" width="300"></div>-->
           
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-              <div class="row">
-                <a href="https://raw.githubusercontent.com/mikechristopher/mikechristopher.github.io/master/images/portfolio.JPG" data-toggle="lightbox" data-gallery="multiimages" data-title="Portfolio" class="col-sm-4">
-                  <img src="https://raw.githubusercontent.com/mikechristopher/mikechristopher.github.io/master/images/portfolio.JPG" width="300" height="200">
-                </a>
-                <a href="http://41.media.tumblr.com/838b44224e39c30cd43490deb11b919d/tumblr_mrn3dc10Wa1r1thfzo1_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Man getting wet" class="col-sm-4">
-                  <img src="//41.media.tumblr.com/838b44224e39c30cd43490deb11b919d/tumblr_mrn3dc10Wa1r1thfzo1_1280.jpg" class="img-responsive">
-                </a>
-                <a href="http://41.media.tumblr.com/e06a3513b0b36843f54bee99aeac689a/tumblr_mrn3dc10Wa1r1thfzo2_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Someone lost their dress" class="col-sm-4">
-                  <img src="//41.media.tumblr.com/e06a3513b0b36843f54bee99aeac689a/tumblr_mrn3dc10Wa1r1thfzo2_1280.jpg" class="img-responsive">
-                </a>
-              </div>
-              <div class="row">
-                <a href="http://41.media.tumblr.com/9d3e6a9c89a856a2ad0be3ab4ca598b2/tumblr_mrn3dc10Wa1r1thfzo4_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" data-footer="Big ass waterfall- using footer instead of title" class="col-sm-4">
-                  <img src="//41.media.tumblr.com/9d3e6a9c89a856a2ad0be3ab4ca598b2/tumblr_mrn3dc10Wa1r1thfzo4_1280.jpg" class="img-responsive">
-                </a>
-                <a href="http://41.media.tumblr.com/9d3e6a9c89a856a2ad0be3ab4ca598b2/tumblr_mrn3dc10Wa1r1thfzo4_1280.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Cool bottle" data-footer="Now fill it with whiskey" class="col-sm-4">
-                  <img src="//41.media.tumblr.com/9d3e6a9c89a856a2ad0be3ab4ca598b2/tumblr_mrn3dc10Wa1r1thfzo4_1280.jpg" class="img-responsive">
-                </a>
-                <a href="http://36.media.tumblr.com/de356cd6570d7c26e73979467f296f67/tumblr_mrn3dc10Wa1r1thfzo6_1280.jpg" data-toggle="lightbox" class="col-sm-4">
-                  <img src="//36.media.tumblr.com/de356cd6570d7c26e73979467f296f67/tumblr_mrn3dc10Wa1r1thfzo6_1280.jpg" class="img-responsive">
-                </a>
-              </div>
+         <div class="row">
+
+    <div class="col-lg-12">
+        <h1 class="page-header">Thumbnail Gallery</h1>
+    
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="Some lovely red flowers" data-image="http://onelive.us/wp-content/uploads/2014/08/flower-delivery-online.jpg" data-target="#image-gallery">
+                <img class="img-responsive" src="http://onelive.us/wp-content/uploads/2014/08/flower-delivery-online.jpg" alt="Short alt text">
+            </a>
+        </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="The car i dream about" data-caption="If you sponsor me, I can drive this car" data-image="http://www.picturesnew.com/media/images/car-image.jpg" data-target="#image-gallery">
+                <img class="img-responsive" src="http://www.picturesnew.com/media/images/car-image.jpg" alt="A alt text">
+            </a>
+        </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice" data-caption="And if there is money left, my girlfriend will receive this car" data-image="http://upload.wikimedia.org/wikipedia/commons/7/78/1997_Fiat_Panda.JPG" data-target="#image-gallery">
+                <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/7/78/1997_Fiat_Panda.JPG" alt="Another alt text">
+            </a>
+        </div>
+</div>
+
+
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="image-gallery-title"></h4>
             </div>
-          </div>
+            <div class="modal-body">
+                <img id="image-gallery-image" class="img-responsive" src="">
+            </div>
+            <div class="modal-footer">
+
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
+                </div>
+
+                <div class="col-md-8 text-justify" id="image-gallery-caption">
+                    This text will be overwritten by jQuery
+                </div>
+
+                <div class="col-md-2">
+                    <button type="button" id="show-next-image" class="btn btn-default">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
           <!--<div class="col-md-4"><img src="http://placehold.it/300x200"></div>
           <div class="col-md-4"><img src="http://placehold.it/300x200"></div>
         </div>
@@ -101,64 +123,8 @@
         </div>
       </div>
     </div>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-    <script type="text/javascript">
-    $(document).ready(function ($) {
-
-        // delegate calls to data-toggle="lightbox"
-        $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
-          event.preventDefault();
-          return $(this).ekkoLightbox({
-            onShown: function() {
-              if (window.console) {
-                return console.log('onShown event fired');
-              }
-            },
-            onContentLoaded: function() {
-              if (window.console) {
-                return console.log('onContentLoaded event fired');
-              }
-            },
-            onNavigate: function(direction, itemIndex) {
-              if (window.console) {
-                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-              }
-            }
-          });
-        });
-
-        //Programatically call
-        $('#open-image').click(function (e) {
-          e.preventDefault();
-          $(this).ekkoLightbox();
-        });
-        $('#open-youtube').click(function (e) {
-          e.preventDefault();
-          $(this).ekkoLightbox();
-        });
-
-        $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
-          event.preventDefault();
-          return $(this).ekkoLightbox({
-            onShown: function() {
-              var lb = this;
-              $(lb.modal_content).on('click', '.modal-footer a#jumpit', function(e) {
-                e.preventDefault();
-                lb.navigateTo(2);
-              });
-              $(lb.modal_content).on('click', '.modal-footer a#closeit', function(e) {
-                e.preventDefault();
-                lb.close();
-              });
-            }
-          });
-        });
-
-      });
-
-    </script>
-  
+    <script src="js/index.js"></script>
   </body>
 </html>

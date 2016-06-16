@@ -29,7 +29,7 @@
 }
 
 .title {
-  padding: 0px;
+  padding: 0px 15px 0px 25px;
   vertical-align: center;
 }
 
@@ -148,7 +148,7 @@ social-icons .fa:hover,
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   width: auto\9;
   /* ie8 */
@@ -160,4 +160,8 @@ img {
 
 .about-text {
   padding: 0 50px;
+}
+
+.footer ul li {
+  margin: 0 -50px;
 }

@@ -165,7 +165,9 @@ img {
 .footer ul li {
   margin: 0 -50px;
 }
-
+.showcasepics {
+padding-left: 20px;
+}
 .picframe {
   background-color: #000000;
 }

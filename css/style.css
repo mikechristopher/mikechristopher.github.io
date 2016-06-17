@@ -1,3 +1,4 @@
+/* CP_DoFullRefresh */
 .page {
   background-color: #000;
 }
@@ -168,13 +169,15 @@ img {
 }
 .showcasepics {
   display: inline-block;
+    margin: 0 35px;
+
 }
 .picframe {
   background-color: #000000;
+  
 }
 .picframe a {
     background-color: #000000;
     outline: none;
     border: 0px;
-
 }

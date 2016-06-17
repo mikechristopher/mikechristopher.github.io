@@ -35,8 +35,20 @@
   vertical-align: center;
 }
 
-.anchor a,.anchor a:link,.anchor a:active,.anchor a:visited {
-color:#fff;
+.anchor a {
+  color: #fff;
+}
+
+.anchor a:link {
+  color: #fff;
+}
+
+.anchor a:active {
+  color: #fff;
+}
+
+.anchor a:visited {
+  color: #fff;
 }
 
 .anchor a:hover {
@@ -151,6 +163,18 @@ img {
 
 .about-text {
   padding: 0 50px;
+}
+
+.about-text a {
+  color: #fff;
+}
+
+.about-text a:hover {
+  color: #fff;
+}
+
+.about-text a:visited {
+  color: #fff;
 }
 
 .footer ul li {

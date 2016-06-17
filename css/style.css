@@ -1,4 +1,5 @@
 /* CP_DoFullRefresh */
+
 .page {
   background-color: #000;
 }
@@ -34,20 +35,8 @@
   vertical-align: center;
 }
 
-.anchor a {
-  color: #fff;
-}
-
-.anchor a:link {
-  color: #fff;
-}
-
-.anchor a:active {
-  color: #fff;
-}
-
-.anchor a:visited {
-  color: #fff;
+.anchor a,.anchor a:link,.anchor a:active,.anchor a:visited {
+color:#fff;
 }
 
 .anchor a:hover {
@@ -167,17 +156,33 @@ img {
 .footer ul li {
   margin: 0 -50px;
 }
+
 .showcasepics {
   display: inline-block;
-    margin: 0 35px;
-
+  margin: 0 35px;
 }
+
 .picframe {
   background-color: #000000;
-  
 }
+
 .picframe a {
-    background-color: #000000;
-    outline: none;
-    border: 0px;
+  background-color: #000000;
+  outline: none;
+  border: 0px;
+}
+
+.modalbg {
+  background-color: #181818;
+}
+
+.close2 {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
 }

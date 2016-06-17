@@ -156,6 +156,7 @@ img {
 
 .showcase img {
   padding: 10px 0px;
+  text-align: center;
 }
 
 .about-text {
@@ -166,7 +167,7 @@ img {
   margin: 0 -50px;
 }
 .showcasepics {
-padding-left: 20px;
+  display: inline-block;
 }
 .picframe {
   background-color: #000000;

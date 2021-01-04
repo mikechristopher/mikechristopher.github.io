@@ -6,7 +6,7 @@ $(document).ready(function() {
     scrolltotop_scroll_speed=200;
 
     /*Change this variable to adjust the speed of the fading.*/
-    scrolltotop_animation_speed=500;
+    scrolltotop_animation_speed=50;
 
     /*Change this variable to adjust the start position of the fade in.*/
     scrolltotop_fadein_start_position=50;
